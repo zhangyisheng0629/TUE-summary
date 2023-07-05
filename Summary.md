@@ -111,6 +111,7 @@ $$
 其中$\mathcal{L}_{CL}$是对比学习的损失，$\mathcal{L}_S$是
 
 优化方法
+
 $$
 \left\{\begin{array}{l}
 \mathrm{S} 1: \theta^{(t)}=\underset{\theta}{\arg \min } \sum_{\boldsymbol{x}_i \in \mathcal{D}_c} \mathcal{L}_{\mathrm{CL}}\left(f\left(\theta, T_1\left(\boldsymbol{x}_i+\boldsymbol{\delta}_i^{(t-1)}\right)\right), f\left(\theta, T_2\left(\boldsymbol{x}_i+\boldsymbol{\delta}_i^{(t-1)}\right)\right)\right) \\
